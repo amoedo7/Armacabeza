@@ -1,0 +1,8 @@
+/armacabeza
+│── mesa.py               # Punto de entrada, maneja el menú
+│── ejecutar.py           # Ejecuta la mesa
+│── piezas.py             # Maneja la creación y ejecución de piezas
+│── gestor_json.py        # Funciones para leer/escribir JSON
+│── modules/              # Carpeta con los módulos (piezas)
+│   ├── ejemplo.py        # Un módulo de ejemplo
+│── mesa.json             # Se genera automáticamente

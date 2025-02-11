@@ -1,0 +1,27 @@
+{
+  "name": "Ejemplo de Escenario",
+  "description": "Recibe un mensaje en Telegram y lo guarda en Google Sheets.",
+  "piezas": [
+    {
+      "id": 1,
+      "name": "Recibir mensaje Telegram",
+      "module": "recibir_mensaje_telegram",
+      "status": "pending",
+      "depends_on": []
+    },
+    {
+      "id": 2,
+      "name": "Guardar en Google Sheets",
+      "module": "guardar_google_sheets",
+      "status": "pending",
+      "depends_on": [1]
+    },
+    {
+      "id": 3,
+      "name": "Enviar confirmación",
+      "module": "enviar_mensaje_telegram",
+      "status": "pending",
+      "depends_on": [2]
+    }
+  ]
+}
