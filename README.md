@@ -1,6 +1,4 @@
-Sí, podemos escribir un README.md bien estructurado y claro. Aquí te dejo un borrador que refleja la idea de Armacabeza y su funcionamiento.
-
-
+El3imm
 ---
 
 🧩 Armacabeza: El Rompecabezas de Piezas Automatizadas
