@@ -1,0 +1,44 @@
+[
+    {
+        "name": "hola mundo ",
+        "description": "muestra hola mundo",
+        "piezas": [
+            {
+                "id": 1,
+                "name": "Hola mundo ",
+                "description": "dice hola mundo ",
+                "type": "action",
+                "module": "imprimir",
+                "enabled": true,
+                "requires_api": false,
+                "provider": "",
+                "params": {
+                    "mensaje": "Hola mundo"
+                },
+                "dependencies": [],
+                "auth_required": false,
+                "api_key_field": "",
+                "metadata": {
+                    "version": "1.0",
+                    "author": "El3imm"
+                },
+                "timeout": 1,
+                "retry": {
+                    "max_attempts": 1,
+                    "delay": 1
+                },
+                "tags": [
+                    "hola",
+                    "mundo"
+                ],
+                "status": "completed",
+                "depends_on": []
+            }
+        ]
+    },
+    {
+        "name": "Hola mundo",
+        "description": "dice hola mundo ",
+        "piezas": []
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "nombre": "Hola Mundo!",
+        "descripcion": "hola mundo",
+        "piezas": [
+            {
+                "nombre": "hola",
+                "descripcion": "hola mundo ",
+                "tipo": "action",
+                "modulo": "imprimir",
+                "api": "n",
+                "parametros": "mensaje= Hola mundo!! ",
+                "timeout": "1",
+                "reintentos": "1,1",
+                "etiquetas": "hola,mundo",
+                "dependencias": "",
+                "estado": "pending"
+            },
+            {
+                "nombre": "chau mundo ",
+                "descripcion": "dice chau ",
+                "tipo": "action",
+                "modulo": "imprimir",
+                "api": "n",
+                "parametros": {
+                    "mensaje": "Chau mundo ! "
+                },
+                "timeout": "1",
+                "reintentos": "",
+                "etiquetas": "chau",
+                "dependencias": "",
+                "estado": "pending"
+            }
+        ]
+    },
+    {
+        "nombre": "no se",
+        "descripcion": "no se quw weeq",
+        "piezas": [
+            {
+                "nombre": "no se",
+                "descripcion": "dije quw no se",
+                "tipo": "action",
+                "modulo": "imprimir",
+                "api": "n",
+                "parametros": {
+                    "mensaje": "no se te dijw "
+                },
+                "timeout": "1",
+                "reintentos": "",
+                "etiquetas": "no",
+                "dependencias": "",
+                "estado": "pending"
+            }
+        ]
+    }
+]
