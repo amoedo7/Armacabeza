@@ -117,7 +117,7 @@ def imprimir_texto(mensaje):
 
 1️⃣ Clona el repositorio:
 
-git clone https://github.com/tuusuario/armacabeza.git
+git clone https://github.com/amoedo7/armacabeza.git
 cd armacabeza
 
 2️⃣ Ejecuta el menú:
